@@ -1,7 +1,15 @@
 *{
     width: 98%;
-    margin: 10px auto;
 
+    margin: 10px auto;
+    
+
+}
+body{
+    height: auto;
+}
+.threedot{
+    display: none;
 }
 nav {
     display: flex;
@@ -70,11 +78,11 @@ nav {
 /* ---------------------form  ---------------- */
 .selector-option{
     display: inline-flex;
-padding: 16px;
-align-items: flex-start;
-gap: 24px;
-border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
     
 }
 .inputs{
@@ -107,6 +115,9 @@ background: rgba(255, 255, 255, 0.30);
     width: 30%;
 
 }
+/* main{
+    height: auto;
+} */
 .cardsof2{
     display: flex;
     gap: 49px;
@@ -114,8 +125,10 @@ background: rgba(255, 255, 255, 0.30);
 }
 .box-1{
     width: 1440px;
-    height: 6940px;
+    height: 640px;
     text-align: justify;
+    overflow: auto;
+    overflow-x: hidden;
     
 }
 .box-2 img{
@@ -146,3 +159,196 @@ background: rgba(255, 255, 255, 0.30);
     background: #FF5400;
     margin-left: 7%;
 }
+.destination{
+    text-align: center;
+}
+
+
+            /* image section start  */
+.images-collage{
+    margin-bottom: 70px;
+}
+.image-line-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.image-line-2{
+    display: flex;
+    gap: 10px;
+}
+.image-line-2 img{
+    height: 286px;
+}
+.image-line-3{
+    display: flex;
+}
+.img3{
+    width: 33.3%;
+height: 286px;
+}
+.img4{
+    width: 43.3%;
+    height: 286px;
+}
+.img5{
+    width: 23.3%;
+}
+.img6{
+    width: 40%;
+    height: 300px;
+}
+.img6 img{
+    height: 100%;
+}
+.img7{
+    width: 60%;
+    height: 300px;
+}
+.img7 img{
+    height: 100%;
+}
+/* Why choose us section  */
+.choose{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+ p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.firstcardgr{
+    display: flex;
+}
+.card{
+    width: 573px;
+    height: 284px;
+}
+
+.card-1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20); 
+    background: rgba(251, 181, 99, 0.05);
+}
+.card-2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20); 
+    background: rgba(41, 206, 246, 0.05);
+}
+.card-3{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+/* deals section start  */
+.deals{
+    width: 50%;
+    margin: 0 auto;
+}
+.deals h2{
+    text-align: center;
+}
+/* deals section End  */
+
+/* card style start  */
+
+.card-of-budget{
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF; 
+    background:rgba(255, 255, 255, 0.80);
+
+
+    backdrop-filter: blur(2.5px);
+}
+.book-now{
+    width: 150px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+}
+.card-on-img{
+    background-image: url(./Images/Group\ 39.png);
+    width: 1170px;
+    height: 500px;
+}
+.card-of-budget{
+    width: 379px;
+    height: 189px;
+    padding: 98px 77px 63px 50px;
+    justify-content: end;
+}
+/* card end  */
+
+/* newsletter section start  */
+.newsletter-Container{
+    display: flex;
+}
+.card-news{
+    height: 422px;
+}
+.newsletter form{
+    padding: 10%;
+    
+}
+.newsletter-Container{
+    width: 93%;
+}
+.newsletter{
+    width: 40%;
+    border: 1px solid tomato;
+    
+}
+.imgcard{
+    width: 60%;
+    margin-left: 10%;
+}
+form>h2{
+    color: #131318;
+
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+.secondform input{
+    width: 80%;
+    height: 52px;
+    font-size: 1.2rem;
+}
+    
+/* footer section start  */
+footer{
+    width: 100%;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+.hero-travel{
+    text-align: center;
+}
+.icon-Of-social{
+    width: 20%;
+    margin: 0 auto;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+footer li{
+    list-style: none;
+}
+/* resposive  */
